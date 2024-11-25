@@ -6,7 +6,7 @@ public class PlayerMove : MonoBehaviour
 {
     public float speed = 2.0f;
 
-    public void Update()
+    public void FixedUpdate()
     {
         Vector3 pos = transform.position;
         if (Input.GetKey("w"))
