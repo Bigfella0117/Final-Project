@@ -23,6 +23,11 @@ public class SceneTransition : MonoBehaviour
         SceneManager.LoadScene("HowToPlay");
     }
 
+    public void LoadPlayerInfo()
+    {
+        SceneManager.LoadScene("PlayerInfo");
+    }
+
     public void LoadMainMenu()
     {
         SceneManager.LoadScene("Main Menu");
