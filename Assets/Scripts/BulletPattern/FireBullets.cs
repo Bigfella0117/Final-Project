@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FireBullets : MonoBehaviour
 {
+    public float FireRate = 1f;
     [SerializeField]
     private int bulletsAmount = 10;
 
@@ -14,7 +15,7 @@ public class FireBullets : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("Fire", 0f, 2f);
+        InvokeRepeating("Fire", 0f, FireRate);
     }
 
     private void Fire()

@@ -6,10 +6,19 @@ public class Bullet : MonoBehaviour
 {
     private Vector2 moveDirection;
     private float moveSpeed;
+    public float damage = 5f;
 
     private void OnEnable()
     {
-        Invoke("Destroy", 3f);
+        Invoke("Destroy", 5f);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("PlayerHitbox"))
+        {
+            Destroy();
+        }
     }
 
     // Start is called before the first frame update

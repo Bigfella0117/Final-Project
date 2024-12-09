@@ -6,10 +6,12 @@ public class DoubleSpiral : MonoBehaviour
 {
     private float angle = 0f;
     private Vector2 bulletMoveDirection;
+
+    public float fireRate = 0.2f;
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("Fire", 0f, 0.1f);
+        InvokeRepeating("Fire", 0f, fireRate);
     }
 
     private void Fire()
