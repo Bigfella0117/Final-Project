@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneTransition : MonoBehaviour
 {
+    void Start()
+    {
+        Time.timeScale = 1.0f;
+    }
     public void LoadLevelOne()
     {
         SceneManager.LoadScene("Level 1");

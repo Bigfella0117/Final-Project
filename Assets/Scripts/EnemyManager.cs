@@ -12,7 +12,6 @@ public class EnemyManager : MonoBehaviour
     {
         if(enemyCount <= 0)
         {
-            Debug.Log("No more enemies");
             SceneManager.LoadScene(nextScene);
         }
     }

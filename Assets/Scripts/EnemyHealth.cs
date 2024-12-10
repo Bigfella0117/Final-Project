@@ -15,7 +15,6 @@ public class EnemyHealth : MonoBehaviour
             if (health <= 0)
             {
                 EnemyManager.GetComponent<EnemyManager>().enemyCount--;
-                Debug.Log(EnemyManager.GetComponent<EnemyManager>().enemyCount);
                 Destroy(thisobject);
             }
         }
