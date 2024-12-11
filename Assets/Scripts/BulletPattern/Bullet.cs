@@ -10,7 +10,7 @@ public class Bullet : MonoBehaviour
 
     private void OnEnable()
     {
-        Invoke("Destroy", 5f);
+        Invoke("Destroy", 6f);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
