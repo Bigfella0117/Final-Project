@@ -10,14 +10,14 @@
 ---
 
 # Required ReadMe Info for ALL MCS1243 Projects
-* **Project**   - 
-* **Your Name** - 
-* **Date**      - 
+* **Project**   - Final Project
+* **Your Name** - John Haddad
+* **Date**      - Due December 11th, 2024
 
 <br>
 
 1. **What are the controls to your game? How do we play?**
-
+J to shoot, WASD to move. You shoot the enemies while avoiding getting shot yourself
 
 
 <br>
@@ -29,37 +29,50 @@
 <br>
 
 3. **Any assets used that you didn't create yourself?** <br> (art, music, etc. Just tell us where you got it, link it here)
+The backgrounds and music 
+Main Menu Background Image: https://stock.adobe.com/search?k=%22rock+background%22
+Boss Level Background Image: https://stock.adobe.com/search?k=%22lava+cave%22
+Level 1 and 2 Background Image: https://www.vectorstock.com/royalty-free-vectors/game-cave-background-vectors
+Victory Screen Background Image: https://www.istockphoto.com/photos/gold-coin
+All music from: pixabay.com
+
+other assets (player model, enemy models, projectile models) made by me using Piskel
+
+
 
 Robot Crush font https://www.dafont.com/robot-crush.font
 
 <br>
 
 4. **Did you receive help from anyone outside this class?** <br> (list their names and what they helped with)
-
+No
 
 
 <br>
 
 5. **Did you get help from any AI Code Assistants?** <br> (Tell us which .cs file to look in for the citation and describe what you learned)
-
+No
 
 
 <br>
 
 6. **Did you get help from any online websites, videos, or tutorials?** <br> (link them here)
-
+Yes, multiple YouTube videos for scripting bullet patterns and for making the health bar
+Double Spiral Script: https://youtu.be/5dlEl_G713A?si=utdefwdQmVSMHr9z
+BulletFire Script: https://youtu.be/Mq2zYk5tW_E?si=XTkxLwxro1HGtYU5
+Health Bar: https://youtu.be/0tDPxNB2JNs?si=eVY-8rAg4GiXZBs4
 
 
 <br>
 
 7. **What trouble did you have with this project?**
-
+Not Much, just a few bugs that I was able to resolve
 
 
 <br>
 
 8. **Is there anything else we should know?**
-
+No
 
 
 
